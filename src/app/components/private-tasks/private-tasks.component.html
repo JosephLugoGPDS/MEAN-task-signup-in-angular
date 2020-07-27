@@ -1,0 +1,9 @@
+<h1>Private Tasks</h1>
+<hr>
+<ul class="list-group">
+    <li 
+    *ngFor="let task of privateTasks"
+    class="list-group-item">
+        {{task._id}}  - {{task.email}}: {{task.description}}
+    </li>
+</ul>
